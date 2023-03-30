@@ -33,33 +33,38 @@ a {
 }
 
 /*Home page Main Header dropdown*/
-/* .sticky {
+ .sticky {
     position: sticky !important;
     top: 0;
-} */
+} 
 .header-container {
     width: 100%;
     height: 60px;
 }
 /*ps-logo*/
 .ps-logo {
-    position: absolute;
-    height: 50px;
+   
+    height: 60px;
     width: 50px;
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
-.ps-logo a img {
+.ps-logo img {
     height: 100%;
     width: 100%;
 }
+.navContainerbg1{
+    z-index: 1;}
+
+.dropDownColor a{
+color: #3a3838;}
 
 /*signin button */
 .signin {
     position: absolute;
-    margin-top: 14px;
-    margin-left: 89%;
+    margin-top: -40px;
+    margin-left: 651px;
 }
 
 .signin button {
@@ -79,8 +84,8 @@ a {
 /*search logo*/
 .search {
     position: absolute;
-    margin-left: 96.5%;
-    margin-top: 14px;
+    margin-top: -40px;
+    margin-left: 761px;
     width: 30px;
     height: 30px;
 }
@@ -89,6 +94,56 @@ a {
     height: 100%;
     width: 100%;
 }
+
+/*bootstrap css*/
+.dropDownMenuSize{
+    height: 190px;
+    width: 1150px;
+}
+.dropDownMenuSize li{
+    float: left;
+}
+.dropDownMenuSize:hover{
+    box-shadow: 0px 3px 5px #00000029;
+}
+.navMenu{
+    display: flex;
+    justify-content: center;
+}
+.navMenu li a{
+    margin: 5px 15px;
+    height: 100px;
+    background-color: #fff;
+    width: 100px;
+}
+.GameOptionImg{
+    height: 60px;
+    width: 60px;
+}
+.GameOptionImg img{
+    width: 100%;
+height: 100%;}
+figcaption{
+    text-align: center;
+}
+.navMenu li a:hover{
+    background-color: #fff;
+    box-shadow: 0px 3px 5px #00000029;
+}
+
+.extraOptionContainer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin-top: -8px;
+}
+.extraOptions ul{
+    background: #9a8181;
+}
+.extraOptions li{
+    margin: 5px 25px;
+    list-style-type:circle;}
 
 /*home page banner*/
 .banner-container,
@@ -251,7 +306,7 @@ a {
     margin-bottom: 80px;
 }
 
-.container {
+.image-container {
     height: 220px;
     width: 98%;
     position: absolute;
