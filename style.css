@@ -855,12 +855,15 @@ figcaption{
     height: 90px;
     width: 100px;
     margin-top: 30px;
-    border: 1px solid violet;
     float: left;
+}
+.footerlogo2 img{
+    width: 100%;
+    height: 100%;
 }
 
 .footerlogo-heading {
-    font-size: 27px;
+    font-size: 21px;
     display: flex;
     color: white;
     padding-left: 10px;
@@ -871,7 +874,6 @@ figcaption{
     height: 55px;
     width: 40px;
     margin-top: 30px;
-    border: 1px solid violet;
     float: left;
 }
 
