@@ -341,7 +341,7 @@ figcaption{
 .poster-box-bg {
     width: 100%;
     height: 540px;
-    background-image: url(img/5s-bg.jpg);
+    background-image: url(https://i.ibb.co/r55X7jH/5s-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -411,7 +411,7 @@ figcaption{
 .extra-large-container {
     height: 730px;
     background: #252550;
-    background-image: url(img/6s-bg.webp);
+    background-image: url(https://i.ibb.co/xHqqBbR/6s-bg.webp);
     /* background-image: linear-gradient(to bottom,rgba(64, 45, 134, 0.065),rgb(104, 40, 201)); */
     object-fit: cover;
     background-repeat: no-repeat;
@@ -641,7 +641,7 @@ figcaption{
 .product-container {
     background: #1f1f1f;
     border: 1px solid rgb(29, 31, 30);
-    background-image: url(img/9s-bg.webp);
+    background-image: url(https://i.ibb.co/pZsvC4X/9s-bg.webp);
     background-repeat: no-repeat;
     background-size: 1700px 800px;
 }
