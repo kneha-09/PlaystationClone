@@ -33,17 +33,19 @@ a {
 }
 
 /*Home page Main Header dropdown*/
- .sticky {
+.sticky {
     position: sticky !important;
     top: 0;
-} 
+}
+
 .header-container {
     width: 100%;
     height: 60px;
 }
+
 /*ps-logo*/
 .ps-logo {
-   
+
     height: 60px;
     width: 50px;
     margin-left: 20px;
@@ -54,11 +56,14 @@ a {
     height: 100%;
     width: 100%;
 }
-.navContainerbg1{
-    z-index: 1;}
 
-.dropDownColor a{
-color: #3a3838;}
+.navContainerbg1 {
+    z-index: 10;
+}
+
+.dropDownColor a {
+    color: #3a3838;
+}
 
 /*signin button */
 .signin {
@@ -96,115 +101,112 @@ color: #3a3838;}
 }
 
 /*bootstrap css*/
-.dropDownMenuSize{
+.dropDownMenuSize {
     height: 190px;
     width: 1150px;
 }
-.dropDownMenuSize li{
+
+.dropDownMenuSize li {
     float: left;
 }
-.dropDownMenuSize:hover{
+
+.dropDownMenuSize:hover {
     box-shadow: 0px 3px 5px #00000029;
 }
-.navMenu{
+
+.innerListDivPosition {
+    margin-right: 20%;
+}
+
+.navMenu {
     display: flex;
     justify-content: center;
 }
-.navMenu li a{
+
+.navMenu li a {
     margin: 5px 15px;
     height: 100px;
     background-color: #fff;
     width: 100px;
 }
-.GameOptionImg{
+
+.GameOptionImg {
     height: 60px;
     width: 60px;
 }
-.GameOptionImg img{
+
+.GameOptionImg img {
     width: 100%;
-height: 100%;}
-figcaption{
+    height: 100%;
+}
+
+figcaption {
     text-align: center;
 }
-.navMenu li a:hover{
+
+.navMenu li a:hover {
     background-color: #fff;
     box-shadow: 0px 3px 5px #00000029;
 }
 
-.extraOptionContainer{
+.extraOptionContainer {
     display: flex;
     justify-content: center;
     height: 50px;
     width: 100%;
     margin-top: -8px;
 }
-.extraOptions ul{
+
+.extraOptions ul {
     background: #9a8181;
 }
-.extraOptions li{
+
+.extraOptions li {
     margin: 5px 25px;
-    list-style-type:circle;}
+    list-style-type: circle;
+}
 
 /*home page banner*/
-.banner-container,
-.banner-img {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 500px;
-}
-
-.banner-img {
-    position: absolute;
-}
-
-.banner-img img {
-    width: 100%;
-    height: 100%;
-
-}
-
-.banner-content,
-.banner-logo {
-    position: absolute;
-}
-
-/*banner logo*/
-.banner-logo img {
-    position: absolute;
-    height: 130px;
-    width: 360px;
-    margin: 80px 0px 0px 20px;
-}
-
-/*common properties for heading, subheading, button*/
-.banner-heading,
-.banner-subheading,
-.banner-btn {
-    position: absolute;
-    color: white;
-    width: 600px;
-    line-height: 1.5em
-}
-
 .banner-heading {
-    font-size: 40px;
-    margin: 240px 0px 0px 18px;
-
+    height: 430px;
+    width: 600px;
+    margin-left: -190px;
 }
 
-.banner-subheading {
-    font-size: 20px;
-    margin: 300px 0px 0px 18px;
+.banner-heading img {
+    height: 150px;
+    width: 350px;
+    margin-top: -20px;
+    margin-left: -240px;
+    padding: 0px;
 }
 
-.banner-btn button {
-    margin: 390px 0px 0px 18px;
+.banner-heading h1 {
+    font-size: 35px;
+    text-align: left;
+    margin: 20px 0px;
+    font-weight: lighter;
+}
+
+.banner-heading p {
+    font: 20px;
+    text-align: left;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+
+.banner-heading button {
+    margin-top: 10px;
+    margin-left: -470px;
     width: 130px;
     height: 40px;
     font-size: 15px;
-    font-weight: bold;
-    border-radius: 22px
+    font-weight: 500;
+    border-radius: 22px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-color: #ffffff;
+
 }
 
 /* 2nd section of home page-image-gallery-slider*/
@@ -481,7 +483,9 @@ figcaption{
 .container-img {
     height: 200px;
 }
-
+.container-img,.container-box-img:hover{
+    transform: scale(1.02);
+}
 .container-img a img {
     height: 100%;
     width: 100%;
@@ -737,9 +741,11 @@ figcaption{
     color: white;
     background-color: #cb1616;
     border-radius: 20px;
-    border-color: red;
 }
+.product-btn button:hover{
+    border: 2px solid rgb(0, 0, 0);
 
+}
 .product-btn2 button {
     height: 50px;
     width: 200px;
@@ -857,7 +863,8 @@ figcaption{
     margin-top: 30px;
     float: left;
 }
-.footerlogo2 img{
+
+.footerlogo2 img {
     width: 100%;
     height: 100%;
 }
