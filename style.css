@@ -258,7 +258,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 5px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 .weathericon {
     width: 30px;
