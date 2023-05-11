@@ -240,7 +240,7 @@ body {
 
 .weather {
     position: absolute;
-    background-color: #ffffff !important;
+    background-color: var(--primary-color) !important;
     margin-left: 560px;
     margin-top: -37px;
     width: 80px;
