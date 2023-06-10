@@ -1,21 +1,22 @@
 [
     {
-        "shopId":1,
+        "categoryId":1,
         "category":"hardware",
         "image":""
     },
     {
-        "shopId":2,
+        "categoryId":2,
         "category":"digitalGames",
         "image":"" 
     },
     {
-        "shopId":3,
+        "categoryId":3,
         "category":"officialMerchandise",
         "image":""
     },
+    
     {
-        "shopId":4,
+        "categoryId":4,
         "category":"latestDiscount",
         "image":""
     }

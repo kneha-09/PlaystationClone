@@ -3,6 +3,7 @@
 >shop>List of type of item eg,1.hardware,
                               2.digital games,
                               3.Official merchandise etc
+                              //http://localhost:3245/item
 
 //page 2
 >list of item wrt type of item have selected
