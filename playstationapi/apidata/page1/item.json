@@ -40,6 +40,145 @@
         "price": 34000,
         "image": "https://i.ibb.co/10qwXSv/c1p5.webp"
     },
+
+    {
+        "category": "Hardware and Discs",
+        "id": 1.1,
+        "categoryId": 1,
+        "name": "DualSense Edge™ wireless controller",
+        "price": 34000,
+        "image": "https://i.ibb.co/10qwXSv/c1p5.webp",
+        "subCategory":{
+            "subCategory":"PS5",
+            "subCategoryId":1
+        }
+
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.2,
+        "categoryId": 1,
+        "name": "PlayStation®5 Console Call of Duty® Modern Warfare II Bundle",
+        "price": 22000,
+        "image": "https://i.ibb.co/dM8VqCS/c1p2.webp",
+        "subCategory":{
+            "subCategory":"PS5",
+            "subCategoryId":1
+        }
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.3,
+        "categoryId": 1,
+        "name": "PlayStation®5 Console",
+        "price": 56000,
+        "image": "https://i.ibb.co/PzYThz4/c1p3.webp",
+        "subCategory":{
+            "subCategory":"PS5",
+            "subCategoryId":1
+        }
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.4,
+        "categoryId": 1,
+        "name": "PlayStation®5 Digital Edition Console",
+        "price": 67000,
+        "image": "https://i.ibb.co/nM88ymY/c1p4.webp",
+        "subCategory":{
+            "subCategory":"PS5",
+            "subCategoryId":1
+        }
+    },
+
+    {
+        "category": "Hardware and Discs",
+        "id": 1.5,
+        "categoryId": 1,
+        "name": "PlayStation®VR2",
+        "price": 41222.75,
+        "image": "https://i.ibb.co/gFqSBMb/PSVR2-1.webp",
+        "subCategory":{
+            "subCategory":"PS VR2",
+            "subCategoryId":2
+        }   
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.6,
+        "categoryId": 1,
+        "name": "PlayStation®VR2 Horizon Call of the Mountain™ Bundle",
+        "price": 56000,
+        "image": "https://i.ibb.co/q7YQRbk/PSVR2-2.webp",
+        "subCategory":{
+            "subCategory":"PS VR2",
+            "subCategoryId":2
+        }   
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.7,
+        "categoryId": 1,
+        "name": "PlayStation VR2 Sense™ Controller Charging Station",
+        "price": 6700,
+        "image": "https://i.ibb.co/RBXQs5G/PSVR2-3.png",
+        "subCategory":{
+            "subCategory":"PS VR2",
+            "subCategoryId":2
+        }
+    },
+
+    {
+        "category": "Hardware and Discs",
+        "id": 1.8,
+        "categoryId": 1,
+        "name": "DUALSHOCK®4 Wireless Controller for PS4™ - Jet Black",
+        "price": 3000,
+        "image": "https://i.ibb.co/CVFGCS1/PS4-1.webp",
+        "subCategory":{
+            "subCategory":"PS4",
+            "subCategoryId":3
+        }
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.9,
+        "categoryId": 1,
+        "name": "DUALSHOCK®4 Wireless Controller for PS4™ - Gold",
+        "price": 7000,
+        "image": "https://i.ibb.co/9sz7HpF/PS4-2.webp",
+        "subCategory":{
+            "subCategory":"PS4",
+            "subCategoryId":3
+        }
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.10,
+        "categoryId": 1,
+        "name": "DUALSHOCK®4 Wireless Controller for PS4™ - Green Camouflage",
+        "price": 6000,
+        "image": "https://i.ibb.co/0VrJCnC/PS4-3.webp",
+        "subCategory":{
+            "subCategory":"PS4",
+            "subCategoryId":3
+        }
+    },
+    {
+        "category": "Hardware and Discs",
+        "id": 1.11,
+        "categoryId": 1,
+        "name": "DUALSHOCK®4 Wireless Controller for PS4™ - Magma Red",
+        "price": 5276.51,
+        "image": "https://i.ibb.co/48x147M/PS4-4.webp",
+        "subCategory":{
+            "subCategory":"PS4",
+            "subCategoryId":3
+        }
+    },
+    
+    
+    
     {
         "category": "Digital Games",
         "id": 6,
