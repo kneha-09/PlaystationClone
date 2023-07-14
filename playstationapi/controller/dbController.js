@@ -26,6 +26,7 @@ async function getData(colName,query){
     return output
 }
 
+
 async function postData(colName,data){
     let output;
     try{
