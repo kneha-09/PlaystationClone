@@ -10,11 +10,11 @@ const base_url = "https://playstationapi-bfns.onrender.com";
 const Listing = () => {
     let params = useParams();
 
-    const { categoryItem, setCategoryItem } = useState();
+    const [categoryItem, setCategoryItem]  = useState();
 
     useEffect(() => {
         let categoryid = params.categoryId;
-        sessionStorage.setItem('categoryId',categoryid)
+        sessionStorage.setItem('categoryid',categoryid)
         axios.get(`${base_url}/categoryitem?categoryId=${categoryid}`)
             .then((res) => {
                 setCategoryItem(res.data)

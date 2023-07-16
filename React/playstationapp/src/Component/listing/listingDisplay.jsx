@@ -1,6 +1,7 @@
-import React from "react";
+import React, { component } from "react";
 import "./listing.css";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const ListingDisplay = (props) => {
 
@@ -11,13 +12,14 @@ const ListingDisplay = (props) => {
                     return (
 
                         <div className="item" >
-                            <div className="itemimage"><img src={item.image} alt={item.category} /></div>
-                            {/* <Link to={`/`}> */}
-                            <p>{item.name}</p>
-                            {/* </Link> */}
+                            <Link to={`/details?restId=${item._id}`}>
+                                <div id="itemimage"><img src={item.image} alt={item.category} /></div>
+
+                                <p>{item.name}</p>
+                            </Link>
+
                             <button>Add to card</button>
                         </div>
-
                     )
                 })
             }
@@ -38,13 +40,8 @@ const ListingDisplay = (props) => {
     return (
 
         <div className="itemsrow">
-
-
             {listitem(props)}
         </div>
-
     )
 }
-
-
 export default ListingDisplay;

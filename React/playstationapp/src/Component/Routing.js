@@ -6,6 +6,11 @@ import Home from "./Home/Home";
 import NavbarSearch from "./Home/NavbarSearch";
 import Main from "./Main";
 import Listing from "./listing/listinglogic";
+import DetailsDisplay from "./Details/detailsLogic";
+import PlaceOrder from './Orders/PlaceOrder';
+import ViewOrder from './Orders/ViewOrder';
+
+
 const Routing =()=>{
     return(
         <div>
@@ -16,6 +21,10 @@ const Routing =()=>{
                     <Route index element={<Home/>}/>
                     <Route path="home" element={<Home/>}/>
                     <Route path="Listing/:categoryId" element={<Listing/>}/>
+                    <Route path="details" element={<DetailsDisplay/>}/>
+
+                    <Route path="placeOrder/:restName" element={<PlaceOrder/>}/>
+                    <Route path="viewOrder" element={<ViewOrder/>}/>
                 </Route>
             </Routes>
             <Footer/>
