@@ -26,7 +26,7 @@ const DetailsDisplay = () => {
     }, [])
 
     const proceed = () => {
-        navigate(`/placeOrder/${restDetails.name}`)
+        navigate(`/PlaceOrder/${restDetails.name}`)
     }
 
     const renderDetails = () => {
@@ -39,14 +39,16 @@ const DetailsDisplay = () => {
                         </div>
                         <div className="productinfo">
                             <h1>{restDetails.name}</h1>
-                            <h2>Rs.{restDetails.price}</h2>
-                            <p>{restDetails.name}</p>
+                            <h2>Rs.{restDetails.price}<h3>{restDetails.rating} &#9733;</h3></h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius nobis mollitia dolor accusantium dolorum aliquid, repellendus ea nesciunt molestias! Beatae.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
                             <hr />
                             <div className="col-md-12">
                                 <Link className="btn btn-danger"
                                     to={`/listing/${categoryid}`}>Back</Link> &nbsp;&nbsp;
                                 <button className="btn btn-success"
-                                    onClick={proceed}>Procced</button>
+                                    onClick={proceed}>Proceed</button>
                             </div>
                         </div>
                     </div></>

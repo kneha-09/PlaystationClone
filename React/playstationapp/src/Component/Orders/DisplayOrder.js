@@ -27,7 +27,7 @@ const Display = (props) => {
                     <tr>
                         <th>OrderId</th>
                         <th>Product Name</th>
-                        <th>Name</th>
+                        <th>address</th>
                         <th>Email</th>
                         <th>Cost</th>
                         <th>Phone</th>

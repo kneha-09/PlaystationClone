@@ -15,7 +15,12 @@ body {
     color: var(--secondary-color) !important;
 }
 
-
+#pslogo{
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+    padding: 5px;
+}
 /*coupon card*/
 
 #main {

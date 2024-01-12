@@ -921,7 +921,7 @@ https://i.ibb.co/10SCHzs/icons8-idea-32.png-->
     </div>
 </footer>
 
-<script >0
+<script >
     window.onload = loadcoupon();
     var icon = document.getElementById('icon');
     icon.onclick = function () {

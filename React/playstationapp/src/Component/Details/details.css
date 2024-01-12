@@ -80,8 +80,20 @@
 
 .productinfo h2 {
     padding-top: 2%;
-    font-size: 18px;
+    font-size: 20px;
 
+}
+.productinfo h2 h3{
+    color: #fff;
+    background-color: #3ced56;
+    height: 30px;
+    width: 50px;
+    float: right;
+    margin-right: 2%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 4px;
 }
 .productinfo p{
     padding-top: 20px;

@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from "react";
-import "./listing.css";
+import "./Games.css";
 import { useParams } from "react-router-dom";
-import ListingDisplay from "./listingDisplay";
+// import ListingDisplay from "./listingDisplay";
 import axios from "axios";
 import DeviceFilter from "../Filters/deviceFilter";
 
 const base_url = "https://playstationapi-bfns.onrender.com";
 
-const Listing = () => {
+const Games = () => {
     let params = useParams();
-
+ 
     const [categoryItem, setCategoryItem] = useState();
-    let gameid = params.gameId;
-    
+    let gameid=params.gameId;
     useEffect(() => {
         let categoryid = params.categoryId;
         sessionStorage.setItem('categoryid', categoryid)
@@ -22,43 +21,36 @@ const Listing = () => {
             })
     }, [])
 
+    
 
     const setDataPerFilter = (data) => {
         setCategoryItem(data)
     }
 
-    return(
-    
+
+    return (
+        <>
             <div className="containers">
                 <div className="heading"><h3>Bringing You The Extraordinary</h3>
                     <h1>PS5<sup>TM</sup> Consoles</h1></div>
                 <div className="itemcontainer">
-                <div className="itemcontainer">
-                {params.categoryId == 2 ?
                     <div className="filtercontainer">
-                  
-                        <DeviceFilter gameId={gameid} categoryId={params.categoryId}
+                        <DeviceFilter gameId={gameid}
                             itemperdevice={(data) => {
                                 setDataPerFilter(data)
                             }} />
-                        
-                        {/* <GenreFilter gameId={gameid}
-            restPerGenre={(data)=>{
-                setDataPerFilter(data)}}/>  */}
+                            {/* <GenreFilter gameId={gameid}
+                            restPerGenre={(data)=>{
+                                setDataPerFilter(data)}}/>  */}
                     </div>
-                    :
-                    <div className="filtercontainer"></div> 
-                }
                     <div className="leftcontainer">
                         <ListingDisplay listData={categoryItem} /></div>
                 </div>
-                
 
 
             </div>
-            </div>
-        
+        </>
     )
 }
 
-export default Listing;
+export default Games;

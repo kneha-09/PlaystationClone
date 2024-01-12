@@ -5,9 +5,9 @@ import Header from "../Header"
 const Home = () => {
     return (
         <>
-        
-        <section>
-        {/* <!-- <div class="banner-container">
+
+            <section>
+                {/* <!-- <div class="banner-container">
             <div class="banner-box">-->
         <!--banner img-->
         <!-- <div class="banner-img"><img src="https://i.ibb.co/C1qRKN8/banner-hogwards-img.webp
@@ -26,75 +26,75 @@ const Home = () => {
                 </div>
             </div> --> */}
 
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active " data-bs-interval="5000">
-                    <img src="https://i.ibb.co/vkjSppQ/banner-hogwards-img.webp" class="d-block w-100" alt="..."/>
-                    <div class="carousel-caption d-none d-md-block banner-heading ">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active " data-bs-interval="5000">
+                            <img src="https://i.ibb.co/vkjSppQ/banner-hogwards-img.webp" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block banner-heading ">
 
-                        <img src="https://i.ibb.co/6wxRcyW/banner-hogwards-logo.webp" alt=""/>
-                        <h1>Live the unwritten</h1>
-                        <p>Decide the fate of the wizarding world in this immersive new open-world action RPG, out
-                            now on PS5</p>
-                        <button>Find out more</button>
+                                <img src="https://i.ibb.co/6wxRcyW/banner-hogwards-logo.webp" alt="" />
+                                <h1>Live the unwritten</h1>
+                                <p>Decide the fate of the wizarding world in this immersive new open-world action RPG, out
+                                    now on PS5</p>
+                                <button>Find out more</button>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item " data-bs-interval="5000">
+                            <img src="https://i.ibb.co/TRwt1x9/godofwarbg.webp" class="d-block w-100" alt="..." />
+                            <div class="carousel-caption d-none d-md-block banner-heading">
+                                <img src="https://i.ibb.co/DVT2fGQ/godofwar-logo.webp" alt="" />
+
+                                <h1>Return to the Nine Realms
+                                </h1>
+                                <p>The God of War Ragnarök ‘New Game Plus’ update is out now, featuring new equipment,
+                                    Enchantments, expanded Niflheim area and more
+
+                                </p>
+                                <button>Find out more</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="https://i.ibb.co/JmtMHgL/gallery-img6.jpg" class="d-block w-100 " alt="..." />
+                            <div class="carousel-caption d-none d-md-block banner-heading">
+                                <img src="https://i.ibb.co/LtDCbjz/call-of-duty-modern-warfare-2-s3-logo.webp" alt="" />
+                                <h1>It's anyone's game
+                                </h1>
+                                <p>Season 03 brings new game modes, including 2v2 Gunfight and Plunder, while Warzone™ Ranked
+                                    Play adds some healthy competition
+
+                                </p>
+                                <button>Find out more</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="https://i.ibb.co/Gn9NZTq/gallery-img7.webp" class="d-block w-100 " alt="..." />
+                            <div class="carousel-caption d-none d-md-block banner-heading">
+                                <img src="https://i.ibb.co/ChwxsZp/ghostwire-tokyo-spiders-thread-logo.webp" alt="" />
+                                <h1>Descend the Spider’s Thread
+                                </h1>
+                                <p>Decide the fate of the wizarding world in this immersive new open-world action RPG, out
+                                    now on PS5</p>
+                                <button>Find out more</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="https://i.ibb.co/s3nYzJs/gallery-img8.jpg" class="d-block w-100 " alt="..." />
+                            <div class="carousel-caption d-none d-md-block banner-heading">
+                                <img src="https://i.ibb.co/Wy34b6G/resident-evil-4-remake-logo.webp" alt="" />
+                                <h1>Survival is just the beginning
+                                </h1>
+                                <p>Experience a thrilling reimagining of the action-horror classic, featuring modernized
+                                    gameplay, a reimagined story & spectacular visuals
+
+                                </p>
+                                <button>Find out more</button>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
-
-                <div class="carousel-item " data-bs-interval="5000">
-                    <img src="https://i.ibb.co/TRwt1x9/godofwarbg.webp" class="d-block w-100" alt="..."/>
-                    <div class="carousel-caption d-none d-md-block banner-heading">
-                        <img src="https://i.ibb.co/DVT2fGQ/godofwar-logo.webp" alt=""/>
-
-                        <h1>Return to the Nine Realms
-                        </h1>
-                        <p>The God of War Ragnarök ‘New Game Plus’ update is out now, featuring new equipment,
-                            Enchantments, expanded Niflheim area and more
-
-                        </p>
-                        <button>Find out more</button>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="https://i.ibb.co/JmtMHgL/gallery-img6.jpg" class="d-block w-100 " alt="..."/>
-                    <div class="carousel-caption d-none d-md-block banner-heading">
-                        <img src="https://i.ibb.co/LtDCbjz/call-of-duty-modern-warfare-2-s3-logo.webp" alt=""/>
-                        <h1>It's anyone's game
-                        </h1>
-                        <p>Season 03 brings new game modes, including 2v2 Gunfight and Plunder, while Warzone™ Ranked
-                            Play adds some healthy competition
-
-                        </p>
-                        <button>Find out more</button>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="https://i.ibb.co/Gn9NZTq/gallery-img7.webp" class="d-block w-100 " alt="..."/>
-                    <div class="carousel-caption d-none d-md-block banner-heading">
-                        <img src="https://i.ibb.co/ChwxsZp/ghostwire-tokyo-spiders-thread-logo.webp" alt=""/>
-                        <h1>Descend the Spider’s Thread
-                        </h1>
-                        <p>Decide the fate of the wizarding world in this immersive new open-world action RPG, out
-                            now on PS5</p>
-                        <button>Find out more</button>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="https://i.ibb.co/s3nYzJs/gallery-img8.jpg" class="d-block w-100 " alt="..."/>
-                    <div class="carousel-caption d-none d-md-block banner-heading">
-                        <img src="https://i.ibb.co/Wy34b6G/resident-evil-4-remake-logo.webp" alt=""/>
-                        <h1>Survival is just the beginning
-                        </h1>
-                        <p>Experience a thrilling reimagining of the action-horror classic, featuring modernized
-                            gameplay, a reimagined story & spectacular visuals
-
-                        </p>
-                        <button>Find out more</button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-</section>
+            </section>
             {/* <!--2nd homepage section--> */}
             <div className="image-gallery-slider">
                 <div className="container-slider">
@@ -406,23 +406,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+        </>
+        export default Home;
 
-
-            {/* <script >
-                window.onload = loadcoupon();
-                var icon = document.getElementById('icon');
-                icon.onClick = function () {
-                    document.body.classNameList.toggle('myDark')
-
-                if (document.body.classNameList.contains('myDark')) {
-                    icon.src = "https://i.ibb.co/qFk8C4m/icons8-sun-30.png";
-        }
-                else {
-                    icon.src = "https://i.ibb.co/7V1s1yw/icons8-moon-symbol-30.png";
-        }
-    }</script> */}
-            </>
-            )
-}
-
-            export default Home;

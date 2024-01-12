@@ -2,7 +2,7 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    padding-left:45%;
+    padding-left:30%;
     display: flex;
     
 }
@@ -23,40 +23,88 @@
     line-height: 25px;
 }
 
+.itemcontainer{
+    /* background-color: #e89090; */
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+}
+
+.filtercontainer{
+    width: 19%;
+    height: 700px;
+    /* background-color: #d0d0d0; */
+    z-index:100;
+    box-shadow: 1px 1px 10px 2px rgb(191, 191, 191);
+}
+
+.leftcontainer{
+    width: 80%;
+    float: left;
+    margin-left: 1%;
+    background-color: #f0f0f0;
+}
+
 .itemsrow {
-    margin: 15px 15px;
-    padding: 10px;
+    margin: 10px 20px;
+    padding: 5px;
     /* background-color: #b8b8b8a7; */
-    height: 1440px;
+    /* height: 1440px; */
 
 }
 
 .item {
     
-    box-shadow: 5px 5px 10px  rgb(133, 133, 133);
+    /* box-shadow: 5px 5px 10px  rgb(133, 133, 133); */
     z-index:100;
-    width: 28%;
+    width: 31%;
     height: 480px;
-    margin: 10px 30px 20px 30px;
+    margin: 10px 8px 20px 8px;
     background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     float: left;
     justify-content: space-between;
 }
+.item:hover{
+    box-shadow: 1px 1px 10px  rgb(133, 133, 133);
 
+}
 .item p{
-    font-size: 22px;
+    height: 80px;
+    font-size: 18px;
     margin: 5% 0% 0% 4% ;
     width: 90%;
     background-color: #fff;
-    height: 60px;
+    color: #000;
+}
+#price{
+    font-size: 20px;
+    position: absolute; 
+    margin-left: 1%;
+     width: 20%;
+     color: #000;
+     /* background-color: #e17676; */
+}
+#price h3{
+    color: #fff;
+    background-color: #3ced56;
+    height: 30px;
+    width: 50px;
+    float: right;
+    margin-left: 20%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 4px;
 }
 .item button{
     background-color: #fff;
     height: 40px;
     width: 140px;
-    margin: 0% 4%;
+    margin: 31% 1%;
+    position: absolute;
     border: 2px solid red ;
     font-size: 18px;
     color: red;
@@ -64,12 +112,14 @@
 }
 
 #itemimage{
-    height: 290px;
+    height: 270px;
     width: 90%;
     background: #000;
-    margin: 4% 4% 0% 4%;
-    /* position:absolute */
+    margin: 5% 5% 0% 5%;
+    /* background-color: #fc8282; */
+    display: grid;
 }
+
 #itemimage img{
     /* margin: auto; */
     width: 100%;

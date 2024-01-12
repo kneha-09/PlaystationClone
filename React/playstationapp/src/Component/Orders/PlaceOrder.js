@@ -48,12 +48,14 @@ const PlaceOrder = () => {
 
     return(
         <>
-            
-            <div className="container">
-                <hr/>
-                <div className="panel panel-success">
-                    <div className="panel-heading">
+        <div className="container"  style={{backgroundColor:"#00439c"}}>
+                
+
+                
+                <div className="panel panel-primary" style={{backgroundColor:"#ebebf2",padding:"10px 20px 30px 20px",marginBottom:"22px"}} >
+                    <div className="panel-heading"  style={{backgroundColor:"#00439c",textAlign:"center", paddingTop:"10px",color:"white"}}>
                         <h3>Order For {params.restName}</h3>
+                        <hr/>
                     </div>
                     <div className="panel-body">
                         {/* <input type="hidden" name="cost" value={values.cost}/>
@@ -70,24 +72,24 @@ const PlaceOrder = () => {
                                 <input className="form-control" id="email"
                                 name="email" value={values.email} onChange={handleInputChange}/>
                             </div>
-                            <div className="col-md-6 form-group">
+                            <div className="col-md-6 form-group" style={{marginTop:"20px"}} >
                                 <label for="email" className="control-label">Phone</label>
                                 <input className="form-control" id="phone"
                                 name="phone" value={values.phone} onChange={handleInputChange}/>
                             </div>
-                            <div className="col-md-6 form-group">
+                            <div className="col-md-6 form-group" style={{marginTop:"20px"}}>
                                 <label for="address" className="control-label">Address</label>
                                 <input className="form-control" id="address"
                                 name="address" value={values.address} onChange={handleInputChange}/>
                             </div>
                             
                         </div>
-                        <div className="row">
+                        <div className="row" style={{marginTop:"20px"}}>
                             <div className="col-md-12">
-                                <h2>Total Price is Rs. {values.cost}</h2>
+                                <h2  style={{color:"#00439c"}}>Total Price is Rs. {values.cost}</h2>
                             </div>
                         </div>
-                        <button className='btn btn-success' onClick={checkout}>
+                        <button className='btn btn-success' onClick={checkout} style={{marginTop:"20px"}}>
                                 Submit
                         </button>
                     </div>

@@ -16,6 +16,8 @@ const ListingDisplay = (props) => {
                                 <div id="itemimage"><img src={item.image} alt={item.category} /></div>
 
                                 <p>{item.name}</p>
+                                <h2 id="price">Rs. {item.price}<h3>{item.rating} &#9733;</h3></h2>
+                                
                             </Link>
 
                             <button>Add to card</button>

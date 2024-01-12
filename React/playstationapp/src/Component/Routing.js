@@ -9,7 +9,7 @@ import Listing from "./listing/listinglogic";
 import DetailsDisplay from "./Details/detailsLogic";
 import PlaceOrder from './Orders/PlaceOrder';
 import ViewOrder from './Orders/ViewOrder';
-
+import Games from "./gamesfilter/Games";
 
 const Routing =()=>{
     return(
@@ -25,6 +25,7 @@ const Routing =()=>{
 
                     <Route path="placeOrder/:restName" element={<PlaceOrder/>}/>
                     <Route path="viewOrder" element={<ViewOrder/>}/>
+                    <Route path="Games:gameId" element={<Games/>}/>
                 </Route>
             </Routes>
             <Footer/>
