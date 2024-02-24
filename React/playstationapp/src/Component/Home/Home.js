@@ -4,7 +4,7 @@ import Header from "../Header"
 
 const Home = () => {
     return (
-        <>
+        <div>
 
             <section>
                 {/* <!-- <div class="banner-container">
@@ -406,6 +406,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-        </>
+        </div>)}
         export default Home;
 

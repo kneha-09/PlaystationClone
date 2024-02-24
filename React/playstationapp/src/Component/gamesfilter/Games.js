@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Games.css";
 import { useParams } from "react-router-dom";
-// import ListingDisplay from "./listingDisplay";
+import ListingDisplay from "../listing/listingDisplay";
 import axios from "axios";
 import DeviceFilter from "../Filters/deviceFilter";
 
