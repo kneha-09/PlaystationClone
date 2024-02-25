@@ -10,6 +10,8 @@ import DetailsDisplay from "./Details/detailsLogic";
 import PlaceOrder from './Orders/PlaceOrder';
 import ViewOrder from './Orders/ViewOrder';
 import Games from "./gamesfilter/Games";
+import Login from "./login/loginComponent";
+import Register from "./login/registerComponent"
 
 const Routing =()=>{
     return(
@@ -26,6 +28,8 @@ const Routing =()=>{
                     <Route path="placeOrder/:restName" element={<PlaceOrder/>}/>
                     <Route path="viewOrder" element={<ViewOrder/>}/>
                     <Route path="Games:gameId" element={<Games/>}/>
+                    <Route path="Login" element={<Login/>}/>
+                    <Route path="register" element={<Register/>}/>
                 </Route>
             </Routes>
             <Footer/>

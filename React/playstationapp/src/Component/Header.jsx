@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import HeaderDisplay from "./HeaderDisplay";
 import "./Header.css"
 import { Link } from "react-router-dom";
+import Headerbutton from "./Headerbutton";
 
 const base_url = "https://playstationapi-bfns.onrender.com";
 
@@ -413,12 +414,13 @@ return (
                                     </div>
 
                                 </ul>
-                                <button onClick="geolocation()" className="weather">
+                                
+                                {/*<button onClick="geolocation()" className="weather">
                                     <p id="weatherid"></p>
                                     <img className="weathericon" src="https://i.ibb.co/CQyrsQd/icons8-weather-48.png" alt="" />
                                 </button>
 
-                                {/* <!-- <div className="dropdown" onClick="geolocation()">
+                                 <!-- <div className="dropdown" onClick="geolocation()">
                                 <button className="btn btn-secondary dropdown-toggle weather" type="button"
                                     id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img className="weathericon" src="https://i.ibb.co/CQyrsQd/icons8-weather-48.png"
@@ -429,7 +431,7 @@ return (
                                     <li id="weather">weather</li>
 
                                 </ul>
-                            </div> --> */}
+                            </div> --> 
 
 
 
@@ -437,18 +439,19 @@ return (
                             <!-- <div className="weather">
             
                   <img id="weathericon" src="https://i.ibb.co/CQyrsQd/icons8-weather-48.png"/></div> -->
-                            <!-- <span><button onClick="changeMode()" className="changeMode" > --> */}
+                            <!-- <span><button onClick="changeMode()" className="changeMode" > --> 
                             <img id="icon" src="https://i.ibb.co/7V1s1yw/icons8-moon-symbol-30.png" alt="Dark mode"
                                 title="DarkMode"/>
-                            {/* <!-- </button></span> -->
+                            <!-- </button></span> -->
                             <!--https://i.ibb.co/MNn6gsG/icons8-idea-26.png
-https://i.ibb.co/10SCHzs/icons8-idea-32.png--> */ }
+https://i.ibb.co/10SCHzs/icons8-idea-32.png--> 
                                 <span className="signin"><a href=""><button>Sign in</button></a></span>
                                 <span className="search"><a href=""><img src="https://i.ibb.co/pdZvxYf/icons8-search-30.png"
-                                    alt="search icon" /></a></span>
+                                    alt="search icon" /></a></span>*/}
 
                             </li>
                         </ul>
+                        <Headerbutton/>
                     </div>
                 </div>
             </nav>

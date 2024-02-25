@@ -478,21 +478,22 @@ figcaption {
     height: 160px;
     width: 98%;
     position: absolute;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .container-slider img {
     width: 100%;
     height: 100%;
     border-radius: 16px;
+    box-shadow: 5px 10px grey;
 
 }
 
 .box-slider {
-    height: 140px;
-    width: 18%;
+    height: 163px;
+    width: 18.2%;
     margin-top: 9px;
-    margin-left: 20px;
+    margin-left: 25px;
     float: left;
     border-radius: 16px;
 }
@@ -678,7 +679,7 @@ figcaption {
     /* background-image: linear-gradient(to bottom,rgba(64, 45, 134, 0.065),rgb(104, 40, 201)); */
     object-fit: cover;
     background-repeat: no-repeat;
-    background-size: 1400px;
+    /* background-size: 1400px; */
     /* background-position: ; */
 }
 

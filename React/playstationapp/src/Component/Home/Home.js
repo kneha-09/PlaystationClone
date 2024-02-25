@@ -213,9 +213,8 @@ const Home = () => {
                         <p>Great PS5 and PS4 games available now</p>
                     </div>
                     <span className="larger-slider-btn">
-                        <button><a href="">
-                            N </a></button>
-                        <button><a href="">N</a></button>
+                        <button>&lt;</button>
+                        <button>&gt;</button>
                     </span>
                     <div className="slider-container">
                         <a href="">

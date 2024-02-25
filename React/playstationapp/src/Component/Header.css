@@ -273,6 +273,17 @@ body {
     margin-top: 2px;
 }
 
+
+/*login logout buttons*/
+#social{
+    /* margin-right: 1%; */
+    margin-left: 52.5%;
+}
+
+.socialLogo{
+    height:50px;
+}
+
 /*
 .weatheritem{
     background-color: #e71111;
