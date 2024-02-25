@@ -277,9 +277,13 @@ body {
 /*login logout buttons*/
 #social{
     /* margin-right: 1%; */
-    margin-left: 52.5%;
+    margin-left: 50%;
 }
-
+#social img{
+   height: 18px;
+   margin-top: -2px;
+   
+}
 .socialLogo{
     height:50px;
 }
@@ -328,44 +332,6 @@ body {
     margin-left: 650px;
     border-style: none;
     cursor: pointer;
-}
-
-
-/*signin button */
-.signin {
-
-    position: absolute;
-    margin-top: -35px;
-    margin-left: 688px;
-}
-
-.signin button {
-    background-color: #0070cc;
-    border-radius: 20px;
-    height: 30px;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-    outline: none;
-    text-align: center;
-    width: 75px;
-}
-
-.signin button:hover {
-    background-color: #024e8c;
-}
-
-/*search logo*/
-.search {
-    position: absolute;
-    margin-top: -35px;
-    margin-left: 780px;
-    width: 30px;
-    height: 30px;
-}
-
-.search a img {
-    height: 100%;
-    width: 100%;
 }
 
 /*bootstrap css*/

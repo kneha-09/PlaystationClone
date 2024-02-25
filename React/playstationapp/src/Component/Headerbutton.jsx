@@ -38,11 +38,11 @@ const Headerbutton = () => {
                 sessionStorage.setItem('userInfo',JSON.stringify(userData))
                 return(
                     <>
-                        <Link to="register" className='btn btn-primary'>
-                            <span className="glyphicon glyphicon-user"></span> Hi {userData.name}
+                        <Link to="register" className='btn btn-primary' >
+                        <img src='https://i.ibb.co/PThcwRS/user.png'></img> Hi {userData.name}
                         </Link> &nbsp;
                         <button onClick={handleLogout} className='btn btn-danger'>
-                            <span className="glyphicon glyphicon-log-out"></span> Logout
+                        <img src='https://i.ibb.co/ZH9qD67/log-out.png'></img> Logout
                         </button>
                     </>
                 )
@@ -51,10 +51,9 @@ const Headerbutton = () => {
                 return(
                     <>
                         <Link to="register" className='btn btn-primary'>
-                            <span className="glyphicon glyphicon-user"></span> Sign Up
+                            <img src='https://i.ibb.co/SXCmqPq/add-user.png'></img> Sign Up
                         </Link> &nbsp;
-                        <Link to="login" className='btn btn-success'>
-                            <span className="glyphicon glyphicon-log-in"></span> Login
+                        <Link to="login" className='btn btn-success'><img src='https://i.ibb.co/Mh2mCCP/log-in.png'></img> Login
                         </Link>
                     </>
                 )

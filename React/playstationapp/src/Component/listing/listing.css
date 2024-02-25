@@ -59,7 +59,7 @@
     /* box-shadow: 5px 5px 10px  rgb(133, 133, 133); */
     z-index:100;
     width: 31%;
-    height: 480px;
+    height: 528px;
     margin: 10px 8px 20px 8px;
     background-color: #ffffff;
     display: flex;
@@ -74,7 +74,7 @@
 .item p{
     height: 80px;
     font-size: 18px;
-    margin: 5% 0% 0% 4% ;
+    margin: 10% 0% 0% 4% ;
     width: 90%;
     background-color: #fff;
     color: #000;
@@ -93,7 +93,7 @@
     height: 30px;
     width: 50px;
     float: right;
-    margin-left: 20%;
+    margin-right: 2.8%;
     border-radius: 5px;
     text-align: center;
     font-size: 17px;
