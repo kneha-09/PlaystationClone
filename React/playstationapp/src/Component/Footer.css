@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 /*footer*/
 .footer {
@@ -138,3 +139,15 @@
     margin-left: 10px;
 
 }
+.copyright {
+    height: 25px;
+    font-family: "Caveat" ;
+    padding-top: 15px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

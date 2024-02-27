@@ -618,25 +618,30 @@
     width: 40%;
     height: 300px;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 420px;
 }
 
 .socialmedia-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 35px;
     color: var(--secondary-color);
-    margin-left: 90px;
+    margin-left: 100px;
 }
 
 .socialmedia-icon {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
+    margin-left: 100px;
 }
 
 .social-img {
     height: 110px;
     width: 110px;
     float: left;
+    filter:drop-shadow(6px 15px 7px rgb(143, 143, 143))
 }
 
 .social-img img {

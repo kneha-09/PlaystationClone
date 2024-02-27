@@ -104,6 +104,8 @@ const Footer=()=>{
             </div>
         </div>
     </div>
+    <div className="copyright"><p>Made with &#x2764; by @NehaKumavat</p></div>
+
 </footer>
         </>
     )
