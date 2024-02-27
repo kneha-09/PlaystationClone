@@ -1,0 +1,13 @@
+.container{
+    margin: 10% auto 10% auto ;
+    width: 60%;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px 25px 15px rgb(232, 230, 230)
+}
+.regButton,.logButton{
+   margin: 2% 0%;
+}
+hr{
+    color: black;
+ }

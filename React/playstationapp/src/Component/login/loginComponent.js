@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import { useNavigate } from 'react-router-dom';
+import "./loginRegister.css"
 // import Header from '../Header';
 
 const url = "http://3.17.216.66:5000/api/auth/login"
@@ -49,10 +50,11 @@ const Login = () => {
         <>
              
             <div className="container">
-                <hr/>
+                
                 <div className="panel panel-warning">
                     <div className="panel-heading">
                         <h3>Login</h3>
+                        <hr/>
                     </div>
                     <div className="panel-body">
                        
@@ -70,7 +72,7 @@ const Login = () => {
                             </div>
                         </div>
                       
-                        <button className='btn btn-danger' onClick={checkout}>
+                        <button className='btn btn-danger logButton' onClick={checkout}>
                             Login
                         </button>
                     </div>

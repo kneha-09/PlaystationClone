@@ -33,7 +33,6 @@ const Listing = () => {
                 <div className="heading"><h3>Bringing You The Extraordinary</h3>
                     <h1>PS5<sup>TM</sup> Consoles</h1></div>
                 <div className="itemcontainer">
-                <div className="itemcontainer">
                 {params.categoryId == 2 ?
                     <div className="filtercontainer">
                   
@@ -55,7 +54,6 @@ const Listing = () => {
                 
 
 
-            </div>
             </div>
         
     )

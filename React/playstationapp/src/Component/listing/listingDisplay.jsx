@@ -17,10 +17,10 @@ const ListingDisplay = (props) => {
 
                                 <p>{item.name}</p>
                                 <h2 id="price">Rs. {item.price}<h3>{item.rating} &#9733;</h3></h2>
-                                
+                                <button>Add to card</button>
+
                             </Link>
 
-                            <button>Add to card</button>
                         </div>
                     )
                 })

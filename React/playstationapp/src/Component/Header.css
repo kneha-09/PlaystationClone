@@ -172,23 +172,21 @@ body {
 /*home page top bar*/
 /*main div*/
 .top {
-    height: 35px;
-    width: 100%;
-    background-color: black;
     position: relative;
-
+    max-width: 100%; /* Ensure the top div takes up full width */
+    height: 2rem; /* Set height as needed */
+    background-color: #000000; /* Optional background color for visualization */
 }
 
-.sonylogo {
-    height: 35px;
-    width: 67px;
+.image-link {
     position: absolute;
-    margin-left: 94%;
+    top: 0;
+    right: 0;
 }
 
-.sonylogo img {
-    height: 100%;
-    width: 100%;
+.image {
+    width: 5rem; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /*Home page Main Header dropdown*/
@@ -278,6 +276,7 @@ body {
 #social{
     /* margin-right: 1%; */
     margin-left: 50%;
+    display: flex;
 }
 #social img{
    height: 18px;
@@ -287,41 +286,6 @@ body {
 .socialLogo{
     height:50px;
 }
-
-/*
-.weatheritem{
-    background-color: #e71111;
-    width: 200px;
-
-}
-.arrowbtn{
-    color: #000;
-    width: 2px;
-    margin: 0px;
-    height: 2px;
-}
-.weatherimg{
-    width: 35px;
-    height: 35px;
-    margin: 0px;
-}*/
-
-/* bootstrap dropdown for temp
-.weatherdropdown {
-    margin-left: 528px !important;
-    margin-top: 10px !important;
-    height: 120px;
-}
-
-#out,
-#weather {
-    background-color: #433d3d4e;
-    color: #000;
-    font-size: 12px;
-    padding: 5px;
-    margin: 2px;
-    height: 18px;
-} */
 
 #icon {
     width: 30px;

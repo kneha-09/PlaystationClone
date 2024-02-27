@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import "./loginRegister.css"
 const url = "http://3.17.216.66:5000/api/auth/register"
 
 const Register = () => {
@@ -40,10 +40,11 @@ const Register = () => {
     return(
         <>
             <div className="container">
-                <hr/>
                 <div className="panel panel-info">
                     <div className="panel-heading">
                         <h3>Register</h3>
+                        <hr/>
+
                     </div>
                     <div className="panel-body">
                        
@@ -71,7 +72,7 @@ const Register = () => {
                             
                         </div>
                       
-                        <button className='btn btn-success' onClick={checkout}>
+                        <button className='btn btn-success regButton' onClick={checkout}>
                                 Register
                         </button>
                     </div>

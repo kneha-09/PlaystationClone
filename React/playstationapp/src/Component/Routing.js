@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
+// import Header from "./Header";
+// import Footer from "./Footer";
 import Home from "./Home/Home";
 import NavbarSearch from "./Home/NavbarSearch";
 import Main from "./Main";
@@ -17,7 +17,7 @@ const Routing =()=>{
     return(
         <div>
             <BrowserRouter>
-            <Header/>
+            {/* <Header/> */}
             <Routes>
                 <Route path="/" element={<Main/>}>
                     <Route index element={<Home/>}/>
@@ -32,7 +32,7 @@ const Routing =()=>{
                     <Route path="register" element={<Register/>}/>
                 </Route>
             </Routes>
-            <Footer/>
+            {/* <Footer/> */}
             </BrowserRouter>
         </div>
     )
