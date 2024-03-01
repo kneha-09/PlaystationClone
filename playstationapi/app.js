@@ -4,6 +4,7 @@ let port = process.env.PORT || 3245;
 let Mongo = require("mongodb");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const axios = require("axios");
 let { dbConnect, getData, postData,updateOrder,deleteOrder } = require('./controller/dbController')
 
 // middleware
@@ -17,10 +18,13 @@ app.get('/', (req, res) => {
 
 //page 1
 app.get("/category", async (req, res) => {
-    let query = {};
-    let collection = "category";
-    let output = await getData(collection, query);
-    res.send(output)
+    try {
+        const response = await axios.get('https://playstationapi-bfns.onrender.com/category');
+        res.json(response.data);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
 })
 app.get("/shoppingItem", async (req, res) => {
     let query = {};

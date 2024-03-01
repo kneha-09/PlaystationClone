@@ -46,7 +46,7 @@ const Listing = () => {
                 setDataPerFilter(data)}}/>  */}
                     </div>
                     :
-                    <div className="filtercontainer" style={{display:"none"}}></div> 
+                    <div className="filtercontainer noneFilterContainer" ></div> 
                 }
                     <div className="leftcontainer">
                         <ListingDisplay listData={categoryItem} /></div>
