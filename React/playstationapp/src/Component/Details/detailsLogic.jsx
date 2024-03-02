@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { useParams, useSearchParams, useNavigate } from 'react-router-dom';
 import Header from '../Header';
 
-const base_url = "https://playstationapi-bfns.onrender.com";
+const base_url = "http://localhost:3000";
 
 const DetailsDisplay = () => {
     let navigate = useNavigate()

@@ -1,6 +1,6 @@
 let express = require("express");
 let app = express();
-let port = process.env.PORT || 3245;
+let port = process.env.PORT || 3000;
 let Mongo = require("mongodb");
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -17,15 +17,17 @@ app.get('/', (req, res) => {
 })
 
 //page 1
-app.get("/category", async (req, res) => {
+app.get('/category', async (req, res, next) => {
     try {
-        const response = await axios.get('https://playstationapi-bfns.onrender.com/category');
-        res.json(response.data);
-    } catch (error) {
-        console.error('Error fetching data:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
+        let query = {};
+        let collection = "category";
+        let output = await getData(collection, query);
+        res.send(output);
+    } catch (err) {
+        console.error("An error occurred:", err); // Logging the error
+        next(err); // Passing the error to the next middleware (global error handler)
     }
-})
+});
 app.get("/shoppingItem", async (req, res) => {
     let query = {};
     let collection = "shoppingItem";
@@ -182,6 +184,7 @@ app.listen(port, (err) => {
     if (err) throw err;
     console.log(`Server is running on port ${port}`)
 })
+
 
 
 

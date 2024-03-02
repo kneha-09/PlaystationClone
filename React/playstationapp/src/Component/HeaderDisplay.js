@@ -8,6 +8,7 @@ const HeaderDisplay = (props) => {
         if (categorydata) {
             return categorydata.map((item) => {
                 return (
+                    
                     <Link to={`/listing/${item.categoryId}`}>
                         <li><a className="dropdown-item" href="../pagging/second.html">
                             <div className="GameOptionImg"><img src={item.image}

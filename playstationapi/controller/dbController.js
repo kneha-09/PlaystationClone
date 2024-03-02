@@ -2,11 +2,21 @@ let mongo=require("mongodb");
 let {MongoClient}=require("mongodb");
 // let mongoUrl="mongodb://127.0.0.1:27017";//url for mongodb
 let mongoUrl="mongodb+srv://nehak:0P2klKEoZilWZ6R1@cluster0.dhoev48.mongodb.net/Playstation?retryWrites=true&w=majority"
-let client=new MongoClient(mongoUrl)//help to connect
 
+let client=new MongoClient(mongoUrl)//help to connect
+async function dbConnect() {
+    try {
+        await client.connect();
+        console.log("Connected to MongoDB successfully");
+    } catch (error) {
+        console.error("Error connecting to MongoDB:", error);
+    }
+}
 //to connect to mongodb
 async function dbConnect(){
-    await client.connect()
+    await client.connect();
+    console.log("Connected to MongoDB successfully");
+
 }
 
 let db =client.db("Playstation");

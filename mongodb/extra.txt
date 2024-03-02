@@ -6,7 +6,8 @@
 // 0P2klKEoZilWZ6R1
 
 // network access
-// databace connect=   mongodb+srv://nehak:ZKXcMHRFxqqn96yf@cluster0.dhoev48.mongodb.net/?retryWrites=true&w=majority         
+// databace connect=   mongodb+srv://nehak:ZKXcMHRFxqqn96yf@cluster0.dhoev48.mongodb.net/?retryWrites=true&w=majority   
+
 // /// find on basis of condition
 // db.collection.find({})
 
