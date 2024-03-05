@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import axios from 'axios';
 import DisplayOrder from './DisplayOrder';
 
-const url = "https://playstationapi-bfns.onrender.com/orders";
+const url = "http://localhost:3000/orders";
 
 const ViewOrder = () => {
 

@@ -1,6 +1,6 @@
 import Raact, { useEffect } from "react";
 import axios from "axios";
-const url="https://playstationapi-bfns.onrender.com/gameIdproduct?playableDeviceId=1";
+const url="http://localhost:3000/gameIdproduct?playableDeviceId=1";
 
   
 

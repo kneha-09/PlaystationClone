@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import { useParams} from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
-const url = "https://playstationapi-bfns.onrender.com/placeOrder";
+const url = "http://localhost:3000/placeOrder";
 
 const PlaceOrder = () => {
     let params = useParams();
